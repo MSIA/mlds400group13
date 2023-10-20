@@ -37,9 +37,9 @@ All members successfully accessed the sql server and we uploaded all data into t
 
 **Skuinfo:** the order is confusing, the second column has four digits only which aligns with "classid", however, we couldn't make sure whether the third column is classid or department.
 
-**deptinfo:** We set the data type of DEPT column as integer, DEPTDESC as character varying, and the unknow columns as integer. 
+**deptinfo:** We set the data type of DEPT column as integer, DEPTDESC as character varying, and the unknow columns as integer. And we also imported the data into postgresql.
 
-**trnsact:** We set the data type of SKU, STORE, REGISTER, TRANNUM, SEQ, QUANTITY, INTERID, and MIC as bigint; SALEDATE as date; STYPE as text, ORGGPRICE, SPRICE, and AMT as numeric; and unknown (last column) as integer type.
+**trnsact:** We set the data type of SKU, STORE, REGISTER, TRANNUM, SEQ, QUANTITY, INTERID, and MIC as bigint; SALEDATE as date; STYPE as text, ORGGPRICE, SPRICE, and AMT as numeric; and unknown (last column) as integer type. And we also imported the data into postgresql.
 
 To do list: clean the data, clearly there are some columns that have confusing attributes. Connect postgresql to python and start to do EDA.
 
