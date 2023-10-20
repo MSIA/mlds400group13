@@ -30,9 +30,6 @@ This table is about the transaction history of Dillard’s stores. It includes T
 
 **To do list:** import data into sql server and order the columns accordingly.
 
-/n
-/n
-
 
 ## Oct 20 
 
