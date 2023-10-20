@@ -30,7 +30,7 @@ This table is about the transaction history of Dillard’s stores. It includes T
 
 
 
-## Oct 13 
+## Oct 20 
 
 All members successfully accessed the sql server and we uploaded all data into tables in postgresql. We specified every string column as "character varying" and every digit as "bigint" to ensure it can store big data. We discovered several extra column and we imported as "unknown"
 
