@@ -28,6 +28,10 @@ This table describes the detailed information about the store, including store n
 Has 14 columns and 120,916,896 rows
 This table is about the transaction history of Dillard’s stores. It includes Total amount of the transaction charge to the customer, internal ID, Master Item code, Original price of the time stock, Item quantity of the transaction, Register number of the current transaction, Sale Date, Sequence number, Stock keeping unit number of the stock item, Sale price of the item stock, Store number, Type of the transaction, Transaction code. And there is an unknown column that has no meaning. Will drop it. The minimum store number is 102, and Sale Price and  Total amount of transaction charge to the customer has the same summary result . Sale date has 71025222 rows  that are not in factorized date format.
 
+**To do list:** import data into sql server and order the columns accordingly.
+
+/n
+/n
 
 
 ## Oct 20 
