@@ -35,7 +35,9 @@ This table is about the transaction history of Dillard’s stores. It includes T
 
 All members successfully accessed the sql server and we uploaded all data into tables in postgresql. We specified every string column as "character varying" and every digit as "bigint" to ensure it can store big data. We discovered several extra column and we imported as "unknown"
 
-**Skuinfo:** the order is confusing, the second column has four digits only which aligns with "classid", however, we couldn't make sure whether the third column is classid or department.
+**skstinfo:** it only has one extra unknown column.
+
+**skuinfo:** the order is confusing, the second column has four digits only which aligns with "classid", however, we couldn't make sure whether the third column is classid or department.
 
 **deptinfo:** We set the data type of DEPT column as integer, DEPTDESC as character varying, and the unknow columns as integer. And we also imported the data into postgresql.
 
