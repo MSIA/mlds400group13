@@ -41,7 +41,7 @@ All members successfully accessed the sql server and we uploaded all data into t
 
 **trnsact:** We set the data type of SKU, STORE, REGISTER, TRANNUM, SEQ, QUANTITY, INTERID, and MIC as bigint; SALEDATE as date; STYPE as text, ORGGPRICE, SPRICE, and AMT as numeric; and unknown (last column) as integer type. And we also imported the data into postgresql.
 
-**strinfo:** The data type of STORE, zip, and unknown columns are integer, CITY and state are character varying. We successfully imported the data into postgresql.
+**strinfo:** The data type of STORE, ZIP, and unknown columns are integer, CITY and STATE are character varying. We successfully imported the data into postgresql.
 
 To do list: clean the data, clearly there are some columns that have confusing attributes. Also, remove the last column(unknown) for each dataset because the last column is meaningless. Connect postgresql to python and start to do EDA.
 
