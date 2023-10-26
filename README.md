@@ -47,4 +47,8 @@ All members successfully accessed the sql server and we uploaded all data into t
 
 To do list: clean the data, clearly there are some columns that have confusing attributes. Also, remove the last column(unknown) for each dataset because the last column is meaningless. Connect postgresql to python and start to do EDA.
 
+## Oct 27
 
+We have successfully grant access to all tables through Postgresql and we clean data in skuinfo. 
+
+To do list: we want to do EDA in python jupyter notebook as Alice taught in class. We want to decide a research topic and start the project proposal first.
