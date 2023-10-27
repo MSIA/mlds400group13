@@ -52,5 +52,3 @@ To do list: clean the data, clearly there are some columns that have confusing a
 We have successfully grant access to all tables through Postgresql and we clean data in skuinfo. We dropped the last column for all tables. 
 
 To do list: we want to do EDA in python jupyter notebook as Alice taught in class. We want to decide a research topic and start the project proposal first.
-
-**strinfo:** We check the number of appearances of each state and city names, find the percentage breakdowns accordingly to get a sense of the distribution of stores. We also find the state and city with the highest number of stores.
