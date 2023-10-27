@@ -49,6 +49,6 @@ To do list: clean the data, clearly there are some columns that have confusing a
 
 ## Oct 27
 
-We have successfully grant access to all tables through Postgresql and we clean data in skuinfo. 
+We have successfully grant access to all tables through Postgresql and we clean data in skuinfo. We dropped the last column for all tables. 
 
 To do list: we want to do EDA in python jupyter notebook as Alice taught in class. We want to decide a research topic and start the project proposal first.
