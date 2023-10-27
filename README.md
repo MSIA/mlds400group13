@@ -49,8 +49,15 @@ To do list: clean the data, clearly there are some columns that have confusing a
 
 ## Oct 27
 
-We have successfully grant access to all tables through Postgresql and we clean data in skuinfo. We dropped the last column for all tables. 
+We have successfully grant access to all tables through Postgresql and we clean data in skuinfo. 
 
-To do list: we want to do EDA in python jupyter notebook as Alice taught in class. We want to decide a research topic and start the project proposal first.
+Clean Data: We dropped the last column for all tables. 
 
 **strinfo:** We check the number of appearances of each state and city names, find the percentage breakdowns accordingly to get a sense of the distribution of stores. We also find the state and city with the highest number of stores.
+
+**trnsact:** We selected about 100000 rows of data to do EDA. We checked how the original and sale prices changed over time using a line plot. From the line plot, we discovered that the original prices of the stock were consistently higher than the sale prices. Significantly large differences were in February 2005 and August 2005. The distribution of original prices and sale prices are skewed to the right. 
+
+**deptinfo:** This table needs to combine with other tables to see the department descriptions.
+
+To do list: we want to do more EDA in python jupyter notebook as Alice taught in class. We also want to decide a research topic and start the project proposal first.
+
