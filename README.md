@@ -41,7 +41,7 @@ All members successfully accessed the sql server and we uploaded all data into t
 
 **deptinfo:** We set the data type of DEPT column as integer, DEPTDESC as character varying, and the unknow columns as integer. And we also imported the data into postgresql.
 
-**trnsact:** We set the data type of SKU, STORE, REGISTER, TRANNUM, SEQ, QUANTITY, INTERID, and MIC as bigint; SALEDATE as date; STYPE as text, ORGGPRICE, SPRICE, and AMT as numeric; and unknown (last column) as integer type. And we also imported the data into postgresql.
+**trnsact:** We set the data type of SKU, STORE, REGISTER, TRANNUM, SEQ, QUANTITY, INTERID, and MIC as bigint; SALEDATE as date; STYPE as text, ORGPRICE, SPRICE, and AMT as numeric; and unknown (last column) as integer type. And we also imported the data into postgresql.
 
 **strinfo:** The data type of STORE, ZIP, and unknown columns are integer, CITY and STATE are character varying. We successfully imported the data into postgresql.
 
@@ -55,7 +55,7 @@ Clean Data: We dropped the last column for all tables.
 
 **strinfo:** We check the number of appearances of each state and city names, find the percentage breakdowns accordingly to get a sense of the distribution of stores. We also find the state and city with the highest number of stores.
 
-**trnsact:** We selected about 100000 rows of data to do EDA. We checked how the original and sale prices changed over time using a line plot. From the line plot, we discovered that the original prices of the stock were consistently higher than the sale prices. Significantly large differences were in February 2005 and August 2005. The distribution of original prices and sale prices are skewed to the right. 
+**trnsact:** We selected about 100000 rows of data to do EDA. We checked how the original and sale prices changed over time using a line plot. From the line plot, we discovered that the original prices of the stock were consistently higher than the sale prices. Significantly large differences were in February 2005 and August 2005. The distribution of original prices and sale prices are skewed to the right. From the correlation matrix plot, we also found out that AMT(Total amount of the transaction charge to the customer) and sale price have highly positive correlation with original price.
 
 **deptinfo:** This table needs to combine with other tables to see the department descriptions.
 
