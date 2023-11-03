@@ -65,12 +65,9 @@ To do list: we want to do more EDA in python jupyter notebook as Alice taught in
 This week, we picked some potential topics and tried to test them out if those topics work. 
 
 **Topics:** 
-Predict the future sales volume and price of a specific item in a particular store, or based on its brand (or department), in order to provide stocking and pricing strategies.
-
-Seasonality of the store sales in different state saledate, supply chain management, in different type of product
-
-Return and purchase rate of different products
-
-Inflation trends through years in stores by different products
+1. Predict the future sales volume and price of a specific item in a particular store, or based on its brand (or department), in order to provide stocking and pricing strategies.
+2. Seasonality of the store sales in different state saledate, supply chain management, in different type of product
+3. Return and purchase rate of different products
+4. Inflation trends through years in stores by different products
 
 
