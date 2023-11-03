@@ -70,4 +70,12 @@ This week, we picked some potential topics and tried to test them out if those t
 3. Return and purchase rate of different products
 4. Inflation trends through years in stores by different products
 
+**EDA for Topic 1:**
+Select the store that has the highest profit in each state, then draw a graph to show the discounts, sales price, or quantity of each item.  
+
+Challenges: trnsact table is too large so it takes a long time to import into python.
+
+
+To do list: Do more EDA or joining table based on each topic and test them out to see which topics work the best.
+
 
