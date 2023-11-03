@@ -62,13 +62,13 @@ Clean Data: We dropped the last column for all tables.
 To do list: we want to do more EDA in python jupyter notebook as Alice taught in class. We also want to decide a research topic and start the project proposal first.
 
 ## Nov 3
-This week, we picked some potential topics and tried to test them out if those topics work. 
+In the current week, we have undertaken an exploratory phase aimed at identifying promising research topics. Our objective is to rigorously evaluate the suitability of these topics through the application of various machine learning methodologies. The primary focus of our efforts is to assess the credibility of these methodologies and their ability to provide comprehensive and explanatory results.
 
 **Topics:** 
-1. Predict the future sales volume and price of a specific item in a particular store, or based on its brand (or department), in order to provide stocking and pricing strategies.
-2. Seasonality of the store sales in different state saledate, supply chain management, in different type of product
-3. Return and purchase rate of different products
-4. Inflation trends through years in stores by different products
+1. Predict the future sales volume and price of a specific item in a particular store, or based on its brand (or department), in order to provide stocking and pricing strategies. (retail demand forecasting research question)
+2. Seasonality of the store sales in different state saledate, supply chain management, in different type of product (consumer behavior research question)
+3. Return and purchase rate of different products-binary (customer satisfaction research question)
+4. Inflation trends through years in stores by different products-original price/sales price (economical research question)
 
 **EDA for Topic 1:**
 Select the store that has the highest profit in each state, then draw a graph to show the discounts, sales price, or quantity of each item.  
