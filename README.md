@@ -61,3 +61,16 @@ Clean Data: We dropped the last column for all tables.
 
 To do list: we want to do more EDA in python jupyter notebook as Alice taught in class. We also want to decide a research topic and start the project proposal first.
 
+## Nov 3
+This week, we picked some potential topics and tried to test them out if those topics work. 
+
+**Topics:** 
+Predict the future sales volume and price of a specific item in a particular store, or based on its brand (or department), in order to provide stocking and pricing strategies.
+
+Seasonality of the store sales in different state saledate, supply chain management, in different type of product
+
+Return and purchase rate of different products
+
+Inflation trends through years in stores by different products
+
+
