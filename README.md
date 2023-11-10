@@ -75,7 +75,10 @@ Select the store that has the highest profit in each state, then draw a graph to
 
 Challenges: trnsact table is too large so it takes a long time to import into python.
 
-
 To do list: Do more EDA or joining table based on each topic and test them out to see which topics work the best.
 
+### Nov 10
+Continue exploreing data from each table, trying to join transaction tables with sampling method.
+
+To do list: decide on final project and work on data manipulation and modeling.
 
