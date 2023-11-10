@@ -79,6 +79,7 @@ To do list: Do more EDA or joining table based on each topic and test them out t
 
 ### Nov 10
 Continue exploreing data from each table, trying to join transaction tables with sampling method.
+Examine the relationship between brand and state and trying to predict the sales in the future
 
 To do list: decide on final project and work on data manipulation and modeling.
 
