@@ -81,7 +81,8 @@ To do list: Do more EDA or joining table based on each topic and test them out t
 Continue exploreing data from each table, trying to join transaction tables with sampling method.
 Examine the relationship between brand and state and trying to predict the sales in the future
 
-***Topic testing in predicting the sale price, discount, and quantity for each brand in the future:*** <br>
+***Topic testing in predicting the sale price, discount, and quantity for each brand in the future:*** 
+
 **Join table:** We joined the four tables together. 
 **Feature Engineering:** Created a profit variable by subtracting COST from SPRICE (Sell price), and discount variable by subtracting SPRICE from ORGPRICE. These two variables can help us have a better understanding how each store is performing in terms of profitability and pricing strategy. We then groupby STATE, STORE, and BRAND, then select the SPRICCE, PROFIT, QUANTITY, and discount variable. Also, we created new variables SPRICE_per_Unit, discount_per_Unit, PROFIT_per_Unit. 
 **EDA:** 
