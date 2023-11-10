@@ -83,9 +83,9 @@ Examine the relationship between brand and state and trying to predict the sales
 
 ***Topic testing in predicting the sale price, discount, and quantity for each brand in the future:*** 
 
-**Join table:** We joined the four tables together. 
-
-**Feature Engineering:** Created a profit variable by subtracting COST from SPRICE (Sell price), and discount variable by subtracting SPRICE from ORGPRICE. These two variables can help us have a better understanding how each store is performing in terms of profitability and pricing strategy. We then groupby STATE, STORE, and BRAND, then select the SPRICCE, PROFIT, QUANTITY, and discount variable. Also, we created new variables SPRICE_per_Unit, discount_per_Unit, PROFIT_per_Unit. 
+**Data Preparation:**
+1. Join table: We joined the four tables together. 
+2. Feature Engineering: Created a profit variable by subtracting COST from SPRICE (Sell price), and discount variable by subtracting SPRICE from ORGPRICE. These two variables can help us have a better understanding how each store is performing in terms of profitability and pricing strategy. We then groupby STATE, STORE, and BRAND, then select the SPRICCE, PROFIT, QUANTITY, and discount variable. Also, we created new variables SPRICE_per_Unit, discount_per_Unit, PROFIT_per_Unit. 
 
 **EDA:** 
 1. Summary statistics: SPRICE, PROFIT, QUANTITY, and discount all have very extreme values, such as 166285.50 and -4167.74.
@@ -93,7 +93,14 @@ Examine the relationship between brand and state and trying to predict the sales
 3. Bar Plot: Top brands by sale price: CLINIQUE, POLO FAS, LANCOME, LIZ CLAI, and CABERNET are top 5 brands have highest total sale price. AR, NV, LA, AZ, and TX state have highest total sale price. 8402, 9806, 504, 2707 have highest total sale price. Top brands by total profit: CLINIQUE, LANCOME, CABERNET, POLO FAS, and ROUNDTRE. Top states have high total profit are TX, FL, LA, AZ, and OH. Top stores have highest profit are 8402, 9806, 504, 2707, and 1607. Top brands with high total discount are POLO FAS, LIZ CLAI, HART SCH, EMMA JAM, and ROUNDTRE. Top states are TX, FL, AZ, LA, and OH. Top stores are 2203, 8402, 9103, 2109, and 1509. The top brands with most sale quantity are CLINIQUE, CABERNET, LANCOME, LIZ CLAI, and ROUNDTRE. 
 4. Scatterplot: As sale price increases, profit increases. As quantity increases, sale price and profit increases.
 
-**Model:** For the modeling, we tried linear regression, gradient boosting regressor, and random forest regressor for SPRICE, discount, and QUANTITY. Among all three models, random forest regressor performs the best. R-squared is 0.9764 in predicting SPRICE, 0.9557 in predicting discount, and 0.9858 in predicting quantity. However, the mean square error are really large for all models since there are many extreme values. We may need to fix this problem by either using sale price per unit and discount per unit or look for other ways. 
+**Model:** 
+1. Model Selection: we tried linear regression, gradient boosting regressor, and random forest regressor for SPRICE, discount, and QUANTITY. Among all three models, random forest regressor performs the best. R-squared is 0.9764 in predicting SPRICE, 0.9557 in predicting discount, and 0.9858 in predicting quantity.
+2. Performanc Metrics: The mean square error are really large for all models since there are many extreme values. We may need to fix this problem by either using sale price per unit and discount per unit or look for other ways.
+
+**Considerations and Suggestions:**
+1. Handling Extreme Values: Given the large mean square errors, consider addressing extreme values by using robust models, transforming the target variables, or employing techniques like log transformation.
+2. Unit-Based Metrics: Or considering unit-based metrics (e.g., sale price per unit, discount per unit) might help in mitigating the impact of extreme values and providing more meaningful insights into the pricing and profitability at a per-unit level.
+3. Further Exploration: Explore other preprocessing techniques, such as scaling, normalization, or outlier removal, to enhance model performance.
 
 To do list: decide on final project and work on data manipulation and modeling.
 
