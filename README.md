@@ -104,3 +104,15 @@ Examine the relationship between brand and state and trying to predict the sales
 
 To do list: decide on final project and work on data manipulation and modeling.
 
+### Nov 17
+**Topic Selection:** This week we selected our final topic, predict high or low profit for each brand in each state, store, and year.
+
+**Clean Data:** Drop rows that ORGPRICE are 0 or 0.01 and SPRICE are 0. 
+
+**EDA:** We drew a heatmap for the dataset. The correlation between STORE and High_Profit is -0.013, Year and High_Profit is 0.055, SPRICE and High_Profit is 0.29, PROFIT and High_Profit is 0.33, QUANTITY and High_Profit is 0.24, ORGPRICE and High_Profit is 0.29, COST and High_Profit is 0.26, RETAIL and High_Profit is 0.27, and discount_rate and High_Profit is -0.16. 
+
+**Feature Selection:** Drop the PROFIT variable and factorize the STATE and BRAND variables (convert them into numerical data type). 
+
+To do List: Try some more models and visualizations. 
+
+
