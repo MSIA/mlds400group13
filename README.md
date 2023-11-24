@@ -115,4 +115,14 @@ To do list: decide on final project and work on data manipulation and modeling.
 
 To do List: Try some more models and visualizations. 
 
+### Nov 24
+**EDA:** We did more EDA this week, including scatter plot, histogram, time series plot, High_Profit counts by top brands, and High_Profit counts by top states. For the histogram, STORE, SPRICE, PROFIT, QUANTITY, ORGPRICE, COST, RETAIL, discount_rate, and High_Profit are right skew; Year is left skew. For the time series graph, all variables increase over time. For the High_Profit counts by top brands graph, brands such as BROWN SH, BYER CAL, CABERNET, CALVIN K, CHANEL I, and CLINIQUE have the top 5 highest profit. For the similar graph for states, AL, AR, AZ, FL, and LA have the top 5 highest profit. 
+
+**Model:** We used three models so far, logistic regression, random forest classifier, and gradient boosting classifier. Logistic regression has 0.91 accuracy, random forest classifier has 0.99 accuracy, and gradient boosting classifier has 0.98 accuracy. Among these data, random forest seems perform the best. And the AUC for random forest is 1, which is perfect classification. 
+
+To do list: 
+1. Test whether random forest classifier is overfitting or try more other models. 
+2. Try to relate what we do to ROI analysis. 
+3. Finish writing the report and the ppt.
+
 
