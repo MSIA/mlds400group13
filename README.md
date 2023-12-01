@@ -125,4 +125,11 @@ To do list:
 2. Try to relate what we do to ROI analysis. 
 3. Finish writing the report and the ppt.
 
+### Dec 1
+**Dividing Group Work in Report and Slides.**
 
+We finalized the model and code for our final project - Decision Tree Classifier for 'High Profit' and 'Low Profit'
+
+Completing the structure creation for Report and create a google slide to align with the report.
+
+We are still discussing ROI analysis and how to put it in deck.
