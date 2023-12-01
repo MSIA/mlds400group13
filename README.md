@@ -133,3 +133,8 @@ We finalized the model and code for our final project - Decision Tree Classifier
 Completing the structure creation for Report and create a google slide to align with the report.
 
 We are still discussing ROI analysis and how to put it in deck.
+
+To do list: 
+1. finishing up the report and slide
+2. come up with an idea to do roi analysis
+3. cross check each other's section
